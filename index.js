@@ -1,7 +1,7 @@
 //DO NOT CHANGE CODE HERE
 var customers = require('./customers.json');
 //DO NOT CHANGE CODE HERE
-
+//console.log(customers)
 
 
 
@@ -26,7 +26,8 @@ then?
 */
 
 function maleCount(array){
-
+for(var i = 0; i <= array.length - 1; i++){
+  console.log(i)
 };
 
 
